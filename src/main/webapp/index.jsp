@@ -4,19 +4,13 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
-    <style>
-        a{
-            margin: 20px;
-            font-family: 'Al Bayan'
-        }
-    </style>
 </head>
 <body>
 
 
 <div class="container text-center">
 
-    <h1 style="margin-top: 50px; font-family: 'Al Bayan'">Welcome home page</h1>
+    <h1 style="margin-top: 50px;">Home Page</h1>
 
     <div class="row">
         <div class="col-md-6 offset-3">
