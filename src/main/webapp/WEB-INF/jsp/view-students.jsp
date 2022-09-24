@@ -11,11 +11,17 @@
 <head>
     <title>View Students</title>
     <link rel="stylesheet" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+
+        h1, th, td, a{
+            font-family: 'Al Bayan'
+        }
+    </style>
 </head>
 <body>
 <div class="container text-center">
-    <h1>STUDENTS LIST</h1>
-    <a class="btn btn-outline-primary my-4" href="/students/add-form">ADD NEW STUDENT</a>
+    <h1 style="margin-top: 50px">View Students</h1>
+    <a class="btn btn-outline-primary my-4" href="/students/add-form">+ add new student</a>
 
     <div class="row">
         <div class="col-md-8 offset-2">
@@ -49,6 +55,8 @@
 
                 </tbody>
             </table>
+
+            <a href="/" class="btn btn-outline-secondary">Back</a>
         </div>
     </div>
 </div>

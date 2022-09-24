@@ -15,6 +15,8 @@ public class StudentDto {
     private String name;
     private String surname;
     private Integer course;
+    private Integer facultyId;
+    private Integer universityId;
     private String facultyName;
     private String universityName;
 }
