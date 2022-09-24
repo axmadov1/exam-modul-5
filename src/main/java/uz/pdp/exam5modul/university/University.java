@@ -15,5 +15,6 @@ public class University {
 
     private Integer id;
     private String name;
+    private String description;
 
 }
